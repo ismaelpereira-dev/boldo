@@ -1,0 +1,82 @@
+.cta{
+    background-color: var(--back);
+    color: white;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    border-radius: 20px;
+
+ 
+}
+
+.cta h2{
+    font-size: 2em;
+     margin: 0px 190px;
+}
+
+.cta button{
+    background-color: var(--back2);
+    color: black;
+    border-radius: 20px;
+    margin: 0px 40px;
+}
+
+.cta input{
+
+    border-radius: 20px;
+}
+
+.form{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 0px 150px;
+}
+
+@media (min-width:768px ) and (max-width: 1023px) {
+    .cta h2{
+    font-size: 2em;
+    margin: 0px 0px;
+}
+
+   .form{
+   margin: 0px 0px;
+}
+
+}
+
+@media (max-width: 768px) {
+   .cta h2{
+    font-size: 1.5em;
+    margin: 0px 0px;
+}
+
+   .form{
+   margin: 0px 0px;
+   gap: 10px;
+}
+
+.cta button{
+    margin: 0px 0px;
+}
+   
+.cta{
+    height: 280px; 
+    margin: 0px 10px;
+}
+    
+}
+
+@media (max-width: 500px) {
+    .cta button{
+    background-color: var(--back2);
+    color: black;
+    border-radius: 20px;
+    height: 50px;
+    padding: 0px;
+}
+.cta input{
+
+    height: 50px;
+}
+}

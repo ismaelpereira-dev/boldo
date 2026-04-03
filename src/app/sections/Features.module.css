@@ -1,0 +1,383 @@
+
+/* serviço */
+
+.cardservico{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+    gap: 40px;
+}
+
+.servico p{
+    padding-top: 15px;
+    font-size: 1.1em;
+    color: rgb(134, 134, 134);
+}
+
+.servicop{
+    font-size: 1.4em;
+}
+
+.servico h2{
+    padding: 10px 0px;
+    padding-bottom: 40px;
+    font-size: 2.7em;
+}
+
+.servico h3{
+    padding-top: 10px;
+}
+
+.servico button{
+    padding-top: 15px;
+    font-size: 1.3em;
+}
+
+.servico{
+    display: grid;
+    text-align: center;   
+    justify-content: center;
+
+    padding-top: 80px;
+
+}
+
+/* responsividade serviços */
+
+@media (max-width: 768px) {
+.cardservico{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px 15px;
+}
+
+.servico p{
+    padding-top: 15px;
+    font-size: 1em;
+    color: rgb(134, 134, 134);
+}
+
+.servico{
+    padding: 0px 10px;
+}
+
+.servicop{
+    font-size: 1.3em;
+}
+
+.servico h2{
+    padding: 10px 0px;
+    padding-bottom: 40px;
+    font-size: 1.9em;
+}
+
+.servico h3{
+    padding-top: 10px;
+}
+
+.servico button{
+    padding-top: 15px;
+    font-size: 1em;
+}
+
+}
+
+@media (min-width:768px ) and (max-width: 1024px) {
+
+
+.cardservico{
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 30px 20px;
+    margin: 0px 10px;
+}
+
+
+}
+
+/* comece agr */
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.buttao{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.gridgroup2 p{
+    text-align: center;
+    
+}
+
+.gridgroup{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+.gridgroup2 button{
+    border-radius: 20px;
+}
+
+/*  responsividade group*/
+
+@media (max-width: 768px) {
+.gridgroup{
+    padding: 100px 10px 0px 10px;
+    grid-template-columns: repeat(1,1fr);    
+    justify-items: center;
+    justify-content: center;
+    
+}
+.gridgroup2{
+    order: 2;
+}
+
+.gridgroup2{
+    display: grid;
+
+    
+}
+    
+}
+
+@media (min-width:768px ) and (max-width: 1024px) {
+    .gridgroup{
+    gap: 20px;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+}
+
+/* comentarios */
+
+ .cometarios{
+    display: grid;
+    border-radius: 30px;
+    justify-items: center;
+    padding: 60px 0px;
+    margin-top: 80px;
+ }
+
+ .cometariosgrid{
+    max-width: 1200px;
+ }
+
+ .cometarios h2{
+    color: black;
+    font-size: 3.5em;
+    padding: 0px 0px 50px 40px;
+
+ }
+
+ .cometariosimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+
+ /* responsividade cometarios */
+
+ @media (min-width:768px ) and (max-width: 1024px) {
+    .cometarios h2{
+    color: black;
+    font-size: 3em;
+    padding: 0px 0px 50px 40px;
+
+ }
+
+}
+
+@media (max-width: 768px) {
+
+    .cometariosimg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0px 6px;
+ } 
+
+ .cometarios h2{
+    color: black;
+    font-size: 1.8em;
+    padding: 0px 10px 30px 10px;
+    justify-items: center; 
+ }
+
+ .cometariostext{
+    justify-items: center;
+ }
+    
+}
+
+/* perguntas */
+ 
+ .perguntatext{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;   
+    padding: 40px 0px;
+    max-width: 1100px;
+ 
+ }
+
+ .perguntas{
+    justify-items: center;
+    margin-top: 80px;    
+ }
+
+ .perguntatext h2{
+    font-size: 2.2em;
+
+ }
+
+ .faq {
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+
+}
+
+.pergunta {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  color: gray;
+}
+
+.resposta {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 10px;
+  background-color: white;
+}
+
+.resposta.aberta {
+  max-height: 200px;
+  padding: 10px;
+}
+
+.seta {
+  transition: transform 0.3s;
+}
+
+.seta.aberta {
+  transform: rotate(180deg);
+}
+
+/* responsividade perguntas */
+
+@media (min-width:768px ) and (max-width: 1024px) {
+    .perguntatext h2{
+    font-size: 1.8em;
+
+ }
+
+ .perguntas {
+  margin: 0px 10px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+    .perguntatext{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;   
+    padding-top: 25px;
+    padding-bottom: 0px;
+ }
+
+ .perguntas{
+    margin: 0px 10px;
+ }
+
+ .perguntatext h2{
+    font-size: 1.6em;
+
+ }
+    
+}
+
+.titulof{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.titulof h1{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.486);
+    padding: 10px 0px;
+}
+
+.titulof p{
+    font-size: 2.2em;
+}
+
+.feacture button{
+    border-radius: 20px;
+    font-size: 1.2em;
+    margin-right: 14px;
+    margin-top: 20px;
+}
+
+.buttonf {
+    background-color: var(--text);
+    color: var(--back);
+    border: 2px solid var(--back);
+    padding: 10px 45px;
+}
+
+.buttonf:hover{
+    background-color: var(--back);
+    color: var(--text);
+}
+
+.feacture{
+    padding: 40px 10px;
+}
+
+@media (max-width: 768px) {
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.titulof h1{
+    font-size: 1em;
+}
+
+.titulof p{
+    font-size: 1.9em;
+}
+}
+
+@media (max-width: 500px) {
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+
+.titulof h1{
+    font-size: 0.9em;
+}
+
+.titulof p{
+    font-size: 1.8em;
+}
+
+.servico h2{
+    font-size: 1.7em;
+}
+
+}

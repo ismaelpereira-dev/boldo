@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --text:#FFFFFF;
+  --back: #0A2640;
+  --var:#F1F1F1;
+  --back2:#65E4A3;
+  
 }
 
 @theme inline {
@@ -20,7 +25,33 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+  
+  margin: 0 auto;
+}
+
+.meuTexto {
+  @apply bg-red-500 p-5;
+  @apply hover:bg-purple-500;
+}
+
+.campo-texto{
+  @apply bg-gray-200 p-1 text-black;
+  @apply rounded-md;
+}
+
+.container {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  
+  
 }
+
+.borda{
+  padding: 0px 10px;
+}
+
+

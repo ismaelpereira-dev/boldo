@@ -1,0 +1,142 @@
+.hero{
+    padding-top: 84px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+.esquerdahero{
+    font-size: 1.3em;
+}
+
+.direitahero{
+    margin-left: 0;
+    /* border: 1px solid red; */
+    justify-content: end;
+    text-align: end;
+    display: grid;
+}
+
+.hero h1{
+    font-size: 2.2em;
+}
+
+.hero p{
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.hero button{
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-right: 14px;
+    margin-top: 20px;
+}
+
+.button2 {
+    background-color: var(--text);
+    color: var(--back);
+    border: 2px solid var(--back);
+    padding: 8px 30px;
+}
+ 
+.button4 {
+    background-color: var(--back);
+    color: var(--text);
+    border: 2px solid var(--back);
+    padding: 8px 30px;
+}
+
+.button4:hover{
+    background-color: var(--text);
+    color: var(--back);
+}
+
+.button2:hover{
+    background-color: var(--back);
+    color: var(--text);
+    border: 2px solid var(--back);
+    padding: 8px 30px;
+}
+.imglogo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-items: center;
+    padding-top: 80px;
+}
+
+@media (min-width:768px ) and (max-width: 1024px) {
+
+    .imglogo{
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding-top: 40px;
+}
+.hero{
+    margin: 0px 10px;
+}
+}
+
+@media (max-width: 768px) {  
+    .hero{
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    margin: 0px 10px;
+}
+
+   .direitahero{
+    justify-content: center;  
+}
+
+.imglogo{
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding: 49px 10px 50px 10px;
+}
+
+.imglogo img{
+    width: 130px;
+}
+
+.hero h1{
+    font-size: 1.8em;
+}
+
+.butao{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    
+}
+.button2 {
+    background-color: var(--text);
+    color: var(--back);
+    border: 2px solid var(--back);
+    padding: 10px 0px;
+}
+ 
+.button4 {
+    background-color: var(--back);
+    color: var(--text);
+    border: 2px solid var(--back);
+    padding: 12px 0px;
+}
+
+.button4:hover{
+    background-color: var(--back);
+    color: var(--text);
+}
+
+.button2:hover{
+    background-color:var(--text);
+    color: var(--back);
+    border: 2px solid var(--back);
+}
+
+.hero button{
+    margin-right: 0px;
+}
+}

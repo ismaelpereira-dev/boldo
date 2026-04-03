@@ -1,0 +1,109 @@
+.feacture{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;  
+        gap: 60px;      
+}
+
+.feactures{
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.feacturestitulo{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.titulof{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.titulof h1{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.486);
+    padding: 10px 0px;
+}
+
+.titulof p{
+    font-size: 2.2em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.bloggrid{
+    display: grid;
+    gap: 10px;
+}
+
+.feacture p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feacture3{
+    padding-bottom: 80px;
+}
+
+
+@media (min-width:768px ) and (max-width: 1024px) {
+    .grid{
+    gap: 20px;
+}
+
+.blog1{
+   margin: 10px;
+}
+
+}
+
+@media (max-width: 768px) {
+    .feacture{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        padding: 0px 10px;
+        margin: auto;      
+}
+
+.feactures{
+    display: grid;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.feacturedata p{
+    font-size: 1.4em;
+}
+
+.feactureet p{
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+
+.titulof h1{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.486);
+    padding: 10px 0px;
+}
+
+.titulof p{
+    font-size: 1.8em;
+}
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+}  
+    
+}
+

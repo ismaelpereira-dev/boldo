@@ -1,0 +1,298 @@
+.home{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-top: 90px;
+}
+
+.homedi{
+    justify-content: end;
+    text-align: end;
+    display: grid;
+}
+
+.home h2{
+    font-size: 3em;
+}
+
+.home h3{
+    font-size: 1.6em;
+    padding: 2px;
+}
+
+.numero{
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 150px;
+
+}
+
+.numero2{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.numero h3{
+    font-size: 2.5em;
+}
+
+.nub{
+    font-size: 5em;
+}
+
+.numero p{
+    font-size: 1.2em;
+}
+
+
+.equipe{
+    display: grid;
+    padding-bottom: 150px;
+
+}
+
+.equipetitulo h3{
+   font-size: 1.4em;
+   color: #777777;
+}
+
+.equipetitulo h2{
+   font-size: 3em;
+}
+
+.equipetitulo p{
+   font-size: 1.1em;
+   color: #777777;
+}
+
+.equipetitulo{
+   display: grid;
+   padding-bottom: 40px;
+}
+
+.equipeimg{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+
+}
+
+
+.equipeimg h3{
+   font-size: 1.1em;
+   color: #777777;
+}
+
+.equipeimg h2{
+   font-size: 2em;
+   padding-top: 14px;
+}
+
+.valores{
+    padding-bottom: 150px;
+}
+
+.valorestitulo{
+    text-align: center;
+
+}
+
+.valorestitulo h3{
+    justify-items: center;
+
+}
+
+.valoresimg{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.valoresimg1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+.valoresimg1 h2{
+    font-size: 1.5em;
+    padding-bottom: 7px;
+    
+}
+
+.valoresimg1 h3{
+    font-size: 1.2em;
+    color: #777777;
+}
+
+.valorestitulo h3{
+    font-size: 1.1em;
+    color: #777777;
+}
+
+.valorestitulo h2{
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    
+}
+
+@media (min-width:768px ) and (max-width: 1023px) {
+    
+
+}
+
+@media (max-width: 768px) {
+
+    
+.homeesquerda{
+    margin: auto;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    padding-top: 84px ;
+    margin: 0 auto;
+}
+
+.homedi{
+    justify-content: center;
+}
+
+.home h2{
+    font-size: 2.3em;
+    padding: 10px 0px;
+    max-width: 500px;
+    
+}
+
+/* numero */
+
+.numero{
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.numero2{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.numero h3{
+    font-size: 1.7em;
+    padding-top: 6px;
+}
+
+.nub{
+    font-size: 2.5em;
+}
+
+.numero p{
+    font-size: 0.8em;
+    padding: 0px 20px;
+}
+
+/* equipe */
+.equipe{
+    display: grid;
+    padding-bottom: 150px;
+    padding-bottom: 80px;
+
+}
+
+.equipetitulo h3{
+   font-size: 1.2em;
+}
+
+.equipetitulo h2{
+   font-size: 2.4em;
+   padding: 0px 0px 7px 0px;
+}
+
+.equipetitulo p{
+   font-size: 1em;
+}
+
+.equipetitulo{
+   display: grid;
+   padding-bottom: 20px;
+}
+
+.equipeimg{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+
+
+.equipeimg h3{
+   font-size: 1em;
+}
+
+.equipeimg h2{
+   font-size: 1.4em;
+}
+
+/* valores */
+
+.valores{
+    padding-bottom: 80px;
+}
+
+
+.valoresimg1{
+    gap: 15px;
+    padding: 20px 0px;
+}
+
+.valoresimg1 h2{
+    font-size: 1.5em;
+    padding-bottom: 7px;
+    
+}
+
+.valoresimg1 h3{
+    font-size: 1em;
+    color: #777777;
+}
+
+.valorestitulo h3{
+    font-size: 1.1em;
+    color: #777777;
+}
+
+.valorestitulo h2{
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    
+}
+}
+
+@media (max-width: 500px) {
+    .valoresimg1 h2{
+    font-size: 1.15em;
+    padding-bottom: 7px;
+    
+}
+
+.valoresimg1 h3{
+    font-size: 0.8em;
+    color: #777777;
+}
+
+.valoresimg1{
+    gap: 10px;
+    padding: 10px 0px;
+}
+}

@@ -1,0 +1,52 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 10px;
+}
+
+.footergrid{
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.footertitulo{
+    padding-top: 10px;
+}
+
+.footer a:hover{
+    color: var(--back2);
+}
+
+@media (min-width:768px ) and (max-width: 1023px) {
+
+}
+
+@media (max-width: 768px) {
+   
+    .footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    text-align: center;
+    margin: 60px 10px;
+}
+
+.footer img{
+    width: 110px;
+}
+
+.footer p{
+    font-size: 0.8em;
+}
+
+.footergrid{
+    display: grid;
+    gap: 20px;
+    
+}
+}
