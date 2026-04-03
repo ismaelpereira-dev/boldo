@@ -14,7 +14,7 @@ export default function Navbar() {
       <div id="Navbar" className={styles.navbar}>
       
         <div className={styles.logo}>
-          <img src="/images/logo.png" alt="" />
+          <img src="images/logo.png" alt="" />
         </div>
         <nav className={`${styles.linknav} ${open ? styles.active : ""}`}>
           <Link className={styles.link} href="/">Home</Link>
