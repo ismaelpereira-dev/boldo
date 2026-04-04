@@ -7,7 +7,7 @@ export default function Footer() {
 
       <div className={styles.footergrid}>
         <div className={styles.footergrid}>
-          <img src="/images/logo.png" alt="" />
+          <img src="/images/Logo (1).png" alt="" />
         </div>
         <div>
           <p className={styles.footergridp}>Estratégias digitais e inovação para impulsionar seu negócio nas redes sociais e no mercado.</p>
