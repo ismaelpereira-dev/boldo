@@ -18,11 +18,11 @@ export default function Hero() {
         </div>
       </section>
       <div className={styles.imglogo}>
+        <img src="/images/logo (1).png" alt="555rfg" />
+        <img src="/images/logo (2).png" alt="wst" />
         <img src="/images/logo (1).png" alt="" />
-        <img src="/images/logo (2).png" alt="" />
-        <img src="/images/logo (1).png" alt="" />
-        <img src="/images/logo (2).png" alt="" />
-        <img src="/images/logo (1).png" alt="" />
+        <img src="/images/logo (2).png" alt="wt" />
+        <img src="/images/logo (1).png" alt="wtews" />
         <img src="/images/logo (2).png" alt="" />
       </div>
     </div>
