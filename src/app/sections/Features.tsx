@@ -144,7 +144,7 @@ export default function Features() {
         </div>
 
         <div>
-          <img src="/images/group.png" alt="" />
+          <img src="/images/group (2).png" alt="" />
         </div>
       </div>
 
