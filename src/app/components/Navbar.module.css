@@ -12,6 +12,16 @@
  
     
 }
+
+.navbar {
+	transition: 0.3s ease;
+}
+
+/* 🔥 quando modal abrir */
+.dark {
+	background: rgb(116, 116, 116);
+
+}
 .linknav{
     display: flex;
     margin-left: auto;
@@ -88,6 +98,10 @@
     font-size: 2em;
     color: black;
   }
+  .dark {
+	background: rgb(255, 255, 255);
+
+}
 }
 
 @media (max-width: 1024px) {
