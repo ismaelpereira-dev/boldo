@@ -22,7 +22,7 @@ export default function Navbar({ onOpenModal, isModalOpen }: NavbarProps) {
       >
       
         <div className={styles.logo}>
-          <img src="images/logo.png" alt="" />
+          <img src="/images/logo.png" alt="" />
         </div>
 
         <nav className={`${styles.linknav} ${open ? styles.active : ""}`}>

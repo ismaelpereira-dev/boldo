@@ -113,7 +113,7 @@ export default function Features() {
  
       <div className={styles.gridgroup}>
         <div>
-          <img src="images/group2.png" alt="" />
+          <img src="public/images/group.png" alt="skdkik" />
         </div>
         <div className={styles.gridgroup2}>
           <h2 className='text-4xl py-10'>Ajudamos nossos clientes <br />a crescer com estratégia, tecnologia e as parcerias certas.</h2>
@@ -144,7 +144,7 @@ export default function Features() {
         </div>
 
         <div>
-          <img src="images/group.png" alt="" />
+          <img src="/images/group.png" alt="" />
         </div>
       </div>
 
