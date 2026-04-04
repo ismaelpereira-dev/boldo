@@ -18,31 +18,32 @@ const data = [
     description: 'Interface de usuário para novos acordos comerciais' 
   },
 
-    { 
+  { 
     id: 3, 
     image: '/images/card3.png',
-    title: 'Categoria 17 de outubro de 2023', 
-    description: 'Proposta de valor e marketing para a nova geração' 
+    title: 'Marketing • 17 de outubro de 2023', 
+    description: 'Como criar uma proposta de valor forte para atrair mais clientes'
   },
 
-      { 
+  { 
     id: 4, 
     image: '/images/card4.png',
-    title: 'Categoria 17 de outubro de 2023', 
-    description: 'Proposta de valor e marketing para a nova geração' 
-  },
-      { 
-    id: 5, 
-    image: '/images/card5.png',
-    title: 'Categoria 17 de outubro de 2023', 
-    description: 'Proposta de valor e marketing para a nova geração' 
+    title: 'Negócios • 17 de outubro de 2023', 
+    description: 'Estratégias para crescer e se destacar no mercado atual'
   },
 
-      { 
+  { 
+    id: 5, 
+    image: '/images/card5.png',
+    title: 'Tecnologia • 17 de outubro de 2023', 
+    description: 'Como a inovação está transformando empresas modernas'
+  },
+
+  { 
     id: 6, 
     image: '/images/card6.png',
-    title: 'Categoria 17 de outubro de 2023', 
-    description: 'Proposta de valor e marketing para a nova geração' 
+    title: 'Startups • 17 de outubro de 2023', 
+    description: 'Dicas para tirar sua ideia do papel e escalar seu negócio'
   },
 
 
@@ -53,16 +54,18 @@ const data = [
     <section  className={styles.feactures}>
       <div className={styles.feacturestitulo}>
         <div className="pb-3">Blog</div>
-        <div className="text-4xl">Pensamentos e palavras</div>
+        <div className="text-4xl">Pensamentos que geram resultados</div>
       </div>
       <div className={styles.feacture}>
-        <img src="/images/blog.png" alt="" />
+        <div className={styles.blogimg1}>
+          <img src="/images/blog.png" alt="" />
+        </div>
         <div className={styles.bloggrid}>
           <div className={styles.feacturedata}>
             <p className="text-gray-500 text-2xl">Categoria 20 de outubro de 2023</p>
           </div>
           <div className={styles.feactureet}>
-            <p className="text-5xl">Etiqueta Link Para <br />Conectar Lojas De <br />Estilos</p>
+            <p className="text-5xl">Conexões, Varejo, Estilo, Web, Dados, IA e Marketing</p>
           </div>
           <p className="text-2xl"><img src="/images/perfil.png" alt="" />Rachel Green</p>
         </div>
@@ -73,7 +76,7 @@ const data = [
 
       <div  className={styles.titulof}>
         <h1>Nosso Blog</h1>
-        <p>Empreendimento acelerador de <br /> gerenciamento de produto de proposição de</p>
+        <p>Conteúdos sobre empreendedorismo, inovação e gestão de produtos para acelerar seus resultados.</p>
       </div>
       <div className={styles.grid}>
        {data.map((item) => (

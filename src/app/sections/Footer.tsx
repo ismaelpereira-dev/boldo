@@ -10,10 +10,10 @@ export default function Footer() {
           <img src="/images/logo.png" alt="" />
         </div>
         <div>
-          <p className={styles.footergridp}>Validação de mídia social modelo de negócios tela interface gráfica do usuário festa de lançamento criativo facebook iPad twitter.</p>
+          <p className={styles.footergridp}>Estratégias digitais e inovação para impulsionar seu negócio nas redes sociais e no mercado.</p>
         </div>
         <div>
-          <p>Todos os direitos reservados.</p>
+          <p>© 2026 Todos os direitos reservados a Ismael-dev.</p>
         </div>
       </div>
 

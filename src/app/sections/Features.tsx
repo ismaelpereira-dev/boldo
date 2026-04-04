@@ -78,34 +78,34 @@ export default function Features() {
           <p>Nossos serviços</p>
         </div>
         <div>
-          <h2>Infográfico de aperto de mão <br /> crowdfunding de crowdfunding.</h2>
+          <h2>Ligamos empresas a parceiros e oportunidades certas para crescimento.</h2>
         </div>
         <div className={styles.cardservico}>
           <div>
             <div className={styles.imgservico}><img src="images/Rectangle 1270 (1).png" alt="" /></div>
-            <h3 className={styles.servicop}>Título de recurso legal</h3>
-            <p>Curva de aprendizagem rede efetua retorno sobre investimento.</p>
+            <h3 className={styles.servicop}>Captação de recursos</h3>
+            <p>Ajudamos projetos a levantar investimentos com estratégias eficientes e modernas.</p>
             <button> <Link href="/blog"> Explorar pagina ➔</Link></button>
           </div>
 
           <div>
             <div className={styles.imgservico}><img src="images/Rectangle 1270 (2).png" alt="" /></div>
-            <h3 className={styles.servicop}>Título de recurso legal</h3>
-            <p>Curva de aprendizagem rede efetua retorno sobre investimento.</p>
+            <h3 className={styles.servicop}>Parcerias estratégicas</h3>
+            <p>Criamos conexões entre empresas e parceiros ideais para gerar novas oportunidades de negócio.</p>
             <button> <Link href="/blog"> Explorar pagina ➔</Link></button>
           </div>
 
           <div>
             <div className={styles.imgservico}><img src="images/Rectangle 1270 (3).png" alt="" /></div>
-            <h3 className={styles.servicop}>Título de recurso legal</h3>
-            <p>Curva de aprendizagem rede efetua retorno sobre investimento.</p>
+            <h3 className={styles.servicop}>Análise e crescimento</h3>
+            <p>Utilizamos dados e métricas para aumentar o desempenho e o retorno sobre investimento (ROI).</p>
             <button> <Link href="/blog"> Explorar pagina ➔</Link></button>
           </div>
 
           <div>
             <div className={styles.imgservico}><img src="images/Rectangle 1270 (2).png" alt="" /></div>
-            <h3 className={styles.servicop}>Título de recurso legal</h3>
-            <p>Curva de aprendizagem rede efetua retorno sobre investimento.</p>
+            <h3 className={styles.servicop}>Soluções tecnológicas</h3>
+            <p>Implementamos ferramentas digitais que otimizam processos e aumentam a produtividade.</p>
             <button> <Link href="/blog"> Explorar pagina ➔</Link></button>
           </div>
         </div>
@@ -116,10 +116,10 @@ export default function Features() {
           <img src="images/group2.png" alt="" />
         </div>
         <div className={styles.gridgroup2}>
-          <h2 className='text-4xl py-10'>Conectamos nossos clientes <br /> com os melhores, e os ajudamos a acompanhar-e ficar aberto.</h2>
-          <p className='py-4 bg-blue-50 my-3'>Conectamos nossos clientes com os melhores.</p>
-          <p className='py-4 bg-blue-50 my-3'>Conectamos nossos clientes com os melhores.</p>
-          <p className='py-4 bg-blue-50 my-3'>Conectamos nossos clientes com os melhores.</p>
+          <h2 className='text-4xl py-10'>Ajudamos nossos clientes <br />a crescer com estratégia, tecnologia e as parcerias certas.</h2>
+          <p className='py-4 bg-blue-50 my-3'>Parcerias que geram resultados</p>
+          <p className='py-4 bg-blue-50 my-3'>Acesso a novas oportunidades</p>
+          <p className='py-4 bg-blue-50 my-3'>Crescimento com eficiência</p>
           <button
           type="submit"
           className="bg-gray-800 text-white px-6 py-3 rounded-1g mt-4"
@@ -131,10 +131,10 @@ export default function Features() {
 
       <div className={styles.gridgroup}>
         <div className={styles.gridgroup2}>
-          <h2 className='text-4xl py-10'>Conectamos nossos clientes <br /> com os melhores, e os ajudamos a acompanhar-e ficar aberto.</h2>
-          <p className='py-4 bg-blue-50 my-3'>Conectamos nossos clientes com os melhores.</p>
-          <p className='py-4 bg-blue-50 my-3'>Conectamos nossos clientes com os melhores.</p>
-          <p className='py-4 bg-blue-50 my-3'>Conectamos nossos clientes com os melhores.</p>
+          <h2 className='text-4xl py-10'>Ligamos você aos melhores <br /> do mercado e abrimos portas para novas oportunidades de sucesso.</h2>
+          <p className='py-4 bg-blue-50 my-3'>Expanda sua rede de contatos</p>
+          <p className='py-4 bg-blue-50 my-3'>Aumente seus resultados</p>
+          <p className='py-4 bg-blue-50 my-3'>Evolua com soluções modernas</p>
           <button
           type="submit"
           className="bg-gray-800 text-white px-6 py-3 rounded-1g mt-4"
@@ -169,16 +169,16 @@ export default function Features() {
 
         <div className={styles.perguntatext}>
           <div>
-            <h2>Conectamos nossos clientes com os melhores, e os ajudamos a acompanhar e ficar aberto.</h2>
+            <h2>Conectamos nossos clientes com os melhores parceiros e oportunidades, e ajudamos você a acompanhar o mercado</h2>
           </div>
           <div>
             <FaqItem
-              pergunta="conectamos nossos clientes com o melhor?"
-              resposta="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad tempora distinctio quisquam nesciunt culpa eligendi dignissimos dolor possimus facere qui reiciendis sit at hic officia ipsum libero, molestias iusto rem?"
+              pergunta="Como conectamos nossos clientes às melhores oportunidades?"
+              resposta="Utilizamos tecnologia e análise de mercado para identificar parcerias estratégicas e conectar nossos clientes às opções mais vantajosas para crescimento e expansão."
             />
             <FaqItem
-              pergunta="Pesquisa e desenvolvimento do Adroid rockstar?"
-              resposta="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad tempora distinctio quisquam nesciunt culpa eligendi dignissimos dolor possimus facere qui reiciendis sit at hic officia ipsum libero, molestias iusto rem?"
+              pergunta="Como funciona nossa pesquisa e desenvolvimento?"
+              resposta="Investimos continuamente em inovação e tecnologia para oferecer soluções modernas, eficientes e alinhadas às necessidades do mercado."
             />
           </div>
         </div>
@@ -188,7 +188,7 @@ export default function Features() {
       <section className={styles.feacture}>
         <div  className={styles.titulof}>
           <h1>Nosso Blog</h1>
-          <p>Empreendimento acelerador de <br /> gerenciamento de produto de proposição</p>
+          <p>Insights, estratégias e tendências para impulsionar seu negócio e otimizar a gestão de produtos.</p>
         </div>
         <div className={styles.grid}>
          {data.map((item) => (
